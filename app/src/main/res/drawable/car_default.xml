@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Заглушка по умолчанию: силуэт автомобиля — нейтральный зелёный цвет -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+  <path android:fillColor="#E8F5E9" android:pathData="M0,0h320v180h-320z"/>
+  <path android:fillColor="#BDBDBD" android:pathData="M0,140h320v40h-320z"/>
+  <path android:fillColor="#388E3C"
+      android:pathData="M40,120 L40,135 Q40,140 46,140 L274,140 Q280,140 280,135
+                        L280,120 L258,120 Q254,100 240,100 L230,78 Q226,65 210,65
+                        L110,65 Q94,65 90,78 L80,100 L62,100 Q46,100 40,120 Z"/>
+  <path android:fillColor="#1B5E20" android:pathData="M268,128 Q278,128 280,135 L280,140 L268,140 Z"/>
+  <path android:fillColor="#1B5E20" android:pathData="M52,128 Q42,128 40,135 L40,140 L52,140 Z"/>
+  <path android:fillColor="#90CAF9" android:strokeColor="#64B5F6" android:strokeWidth="1"
+      android:pathData="M98,72 Q95,65 110,65 L210,65 Q225,65 222,72 L216,100 L104,100 Z"/>
+  <path android:fillColor="#1B5E20" android:pathData="M155,65 L158,100 L162,100 L159,65 Z"/>
+  <path android:fillColor="#424242" android:pathData="M90,140 m-24,0 a24,24 0 1,0 48,0 a24,24 0 1,0 -48,0"/>
+  <path android:fillColor="#9E9E9E" android:pathData="M90,140 m-13,0 a13,13 0 1,0 26,0 a13,13 0 1,0 -26,0"/>
+  <path android:fillColor="#E0E0E0" android:pathData="M90,140 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+  <path android:fillColor="#424242" android:pathData="M230,140 m-24,0 a24,24 0 1,0 48,0 a24,24 0 1,0 -48,0"/>
+  <path android:fillColor="#9E9E9E" android:pathData="M230,140 m-13,0 a13,13 0 1,0 26,0 a13,13 0 1,0 -26,0"/>
+  <path android:fillColor="#E0E0E0" android:pathData="M230,140 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+  <path android:fillColor="#FFF9C4" android:pathData="M268,110 L278,112 L278,122 L268,122 Z"/>
+  <path android:fillColor="#FFCC02" android:pathData="M42,110 L52,112 L52,122 L42,122 Z"/>
+</vector>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+  <!-- Фон иконки -->
+  <path android:fillColor="#1565C0"
+      android:pathData="M0,0h108v108h-108z"/>
+  <!-- Корпус автомобиля -->
+  <path android:fillColor="#FFFFFF"
+      android:pathData="M22,65 L22,72 Q22,75 25,75 L83,75 Q86,75 86,72 L86,65
+                        L78,65 Q76,58 70,58 L68,45 Q67,38 60,38 L48,38
+                        Q41,38 40,45 L38,58 L30,58 Q24,58 22,65 Z"/>
+  <!-- Колёса (path-дуги вместо circle) -->
+  <path android:fillColor="#1565C0"
+      android:pathData="M28,73 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0"/>
+  <path android:fillColor="#90CAF9"
+      android:pathData="M32,73 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"/>
+  <path android:fillColor="#1565C0"
+      android:pathData="M64,73 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0"/>
+  <path android:fillColor="#90CAF9"
+      android:pathData="M68,73 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"/>
+  <!-- Окно -->
+  <path android:fillColor="#90CAF9"
+      android:pathData="M44,44 Q43,38 48,38 L60,38 Q65,38 64,44 L61,58 L47,58 Z"/>
+</vector>

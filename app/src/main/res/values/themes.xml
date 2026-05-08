@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Базовая тема без ActionBar.
+        Theme.Material3.DayNight.NoActionBar поставляется
+        в com.google.android.material:material:1.12+
+    -->
+    <style name="Theme.CarJournal" parent="Theme.Material3.DayNight.NoActionBar" />
+</resources>

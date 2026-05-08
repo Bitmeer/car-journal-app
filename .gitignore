@@ -1,0 +1,47 @@
+# Built artifacts
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Keystore files (SECURITY!)
+*.jks
+*.keystore
+
+# Gradle cache
+.gradle/
+gradle-app.setting
+
+# Module-specific
+app/build/
+
+# KSP / KAPT generated
+app/build/generated/
+app/build/intermediates/
+app/build/kotlin/
+app/build/kspCaches/
+app/build/outputs/
+app/build/tmp/
+
+# NDK
+obj/
+
+# IntelliJ
+*.ipr
+*.iws
+*.iml
+out/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride

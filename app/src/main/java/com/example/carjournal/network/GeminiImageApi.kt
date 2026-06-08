@@ -17,15 +17,8 @@ import java.util.concurrent.TimeUnit
 
 object GeminiImageApi {
 
-    // TODO: вставь свой ключ Vertex AI (Gemini/Imagen)
-    // Получить: https://console.cloud.google.com/apis/credentials
     private const val API_KEY = "YOUR_VERTEX_AI_API_KEY"
     private const val PROJECT_ID = "YOUR_GCP_PROJECT_ID"
-
-    // Бесплатный ключ для удаления фона (50 фото/мес):
-    // 1. Зайди на https://www.remove.bg/api
-    // 2. Нажми "Get API Key Free"
-    // 3. Вставь ключ сюда:
     private const val REMOVEBG_KEY = "YOUR_REMOVEBG_API_KEY"
 
     private const val VERTEX_URL =

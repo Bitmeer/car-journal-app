@@ -1,3 +1,5 @@
+import java.util.Properties
+
 // build.gradle.kts (App module)
 plugins {
     alias(libs.plugins.android.application)
@@ -17,8 +19,8 @@ android {
         versionCode   = 1
         versionName   = "1.0"
 
-        // Читаем ключ из local.properties
-        val localProps = java.util.Properties()
+        // ИСПРАВЛЕНО: Убрали java.util. благодаря импорту наверху
+        val localProps = Properties()
         val localFile = rootProject.file("local.properties")
         if (localFile.exists()) localProps.load(localFile.inputStream())
         manifestPlaceholders["MAPS_API_KEY"] = localProps.getProperty("MAPS_API_KEY", "")
@@ -32,11 +34,12 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
+}
 
-    kotlin {
-        compilerOptions {
-            jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
-        }
+// ИСПРАВЛЕНО: Блок вынесен на верхний уровень (из блока android)
+kotlin {
+    compilerOptions {
+        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
     }
 }
 

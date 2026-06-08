@@ -3,14 +3,7 @@ package com.example.carjournal.ai
 import com.example.carjournal.network.WikipediaImageApi
 
 /**
- * Реальный поиск изображения автомобиля через Wikipedia/Wikimedia API.
- *
- * Пользователь вводит марку и модель → приложение ищет изображение
- * в Wikipedia и показывает найденную фотографию.
- * Никаких API-ключей не требуется.
- *
- * TODO (Диплом): Заменить WikipediaImageApi на Stable Diffusion / DALL-E
- *               для полноценной AI-генерации вместо поиска готового фото.
+ * Поиск изображения автомобиля через Wikipedia/Wikimedia API.
  */
 class NetworkCarImageGenerator : ImageGenerationStrategy {
 
